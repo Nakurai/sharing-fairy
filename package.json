@@ -1,0 +1,36 @@
+{
+  "name": "p2p-airdrop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && copy CNAME dist\\CNAME",
+    "lint": "vue-cli-service lint",
+    "deploy":"surge"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "p2pt": "^1.5.0",
+    "register-service-worker": "^1.7.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "prettier": "^1.19.1"
+  },
+  "_id": "p2p-airdrop@0.1.0",
+  "readme": "ERROR: No README data found!"
+}

@@ -1,0 +1,18 @@
+.pointer {
+  cursor: pointer;
+}
+
+.displayBlock {
+  display: block;
+}
+.displayNone {
+  display: none;
+}
+.app-view {
+  margin-top: 80px;
+  max-height: 85vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  min-height: 85vh;
+}
